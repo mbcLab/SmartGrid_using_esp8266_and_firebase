@@ -1,7 +1,7 @@
 # Monitoring Konsumsi Daya dengan PZEM dan esp8266
-### Sistem ini menggunakan mikrokontroller esp8266 __bukan esp32__
+### Sistem ini menggunakan mikrokontroler esp8266 __bukan esp32__
 Semua library yang diperlukan sudah ada di repository ini, untuk firebase nya menggunakan email MBC, jadi silahkan menghubungi Asisten Lab MBC untuk mendapatkan aksesnya, atau edit di codingan arduino nya.
-### Schematic rangkaian:
+### Schematic rangkaian kontroler:
 | esp8266 | PZEM | Relay |
 |---------|------|-------|
 |3v       |5v    |VCC    |
