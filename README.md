@@ -6,7 +6,7 @@ Semua library yang diperlukan sudah ada di repository ini, untuk firebase nya me
 |---------|------|-------|
 |3v       |5v    |VCC    |
 |GND      |GND   |GND    |
-|D4       |NC    |IN     |
+|D1       |NC    |IN     |
 |D5       |TX    |NC     |
 |D6       |RX    |NC     |
 - [x] Monitoring komsumsi daya
