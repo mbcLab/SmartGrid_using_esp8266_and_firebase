@@ -7,8 +7,8 @@
  * Pin 12 Tx (Connects to the Rx pin on the PZEM)
 */
 #ifndef STASSID
-#define STASSID "MBC Laboratory."
-#define STAPSK  "123gogoans"
+#define STASSID "DR"          //SSID WiFi
+#define STAPSK  "LaTahzan"    //Password Wifi
 #endif
 
 const char* ssid     = STASSID;
@@ -39,7 +39,7 @@ void setup() {
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
   
-  Firebase.begin("abdimas-94c26.firebaseio.com", "PcZg4HWRj1obVL4PZw8EVFlNKc2TWXGbOh0qzpMw");
+  Firebase.begin("abdimas-94c26.firebaseio.com", "PcZg4HWRj1obVL4PZw8EVFlNKc2TWXGbOh0qzpMw");         //URL dan Token Firebase
   Firebase.reconnectWiFi(true);
   Firebase.setMaxRetry(firebaseData, 3);
 
